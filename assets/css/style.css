@@ -293,6 +293,7 @@ input[type=submit] {
   }
 
   .main-section {
+    width: 96.9%;
     margin: 50px 10px 0 10px;
   }
 

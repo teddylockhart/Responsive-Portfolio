@@ -240,13 +240,25 @@ input[type=submit] {
 
 /* START HOMEWORK 2 */
 @media screen and (max-width: 980px) {
+/* About */
   .auth-image {
     width: 588px;
     /* DO I NEED TO SHRINK AND CENTER COLUMNS? */
   }
+
+/* Portfolio */
+  .work:nth-child(even) {
+    margin-right: 0;
+  }
+
+  .work {
+    margin: 0;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
+/* About */
   .auth-image {
     width: 300px;
   }
@@ -265,10 +277,21 @@ input[type=submit] {
     max-width: 650px;
     width: 100%;
   }
+
+/* Portfolio */
+  .work:nth-child(even) {
+    margin-right: 40;
+  }
+
+  .work {
+    margin: 20px 0 25px;
+    width: auto;
+  }
   
 }
 
 @media screen and (max-width: 640px) {
+/* About */
   header {
     position: static;
   }
@@ -302,5 +325,9 @@ input[type=submit] {
     margin: 10px;
     max-width: 620px;
     width: 100%;
+  }
+
+/* Portfolio*/
+
 
 }

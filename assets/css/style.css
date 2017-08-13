@@ -280,12 +280,12 @@ input[type=submit] {
 
 /* Portfolio */
   .work:nth-child(even) {
-    margin-right: 40;
+    margin-right: 40px;
   }
 
   .work {
     margin: 20px 0 25px;
-    width: auto;
+    width: 274px;
   }
   
 }
@@ -327,7 +327,14 @@ input[type=submit] {
     width: 100%;
   }
 
-/* Portfolio*/
+/* Portfolio */
+  .work:nth-child(even) {
+    margin-right: 0;
+  }
 
+  .work {
+    margin: 0;
+    width: auto;
+  }
 
 }

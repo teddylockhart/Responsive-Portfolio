@@ -292,7 +292,7 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
 /* About */
-  header {
+  #mast-head {
     position: static;
   }
 
